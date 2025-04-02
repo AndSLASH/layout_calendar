@@ -9,8 +9,8 @@
 
 @mixin hover($property1, $value1, $property2, $value2) {
   transition:
-    $property1 200ms ease,
-    $property2 200ms ease;
+    $property1 0.5s ease,
+    $property2 0.5s ease;
   &:hover {
     #{$property1}: $value1;
     #{$property2}: $value2;
